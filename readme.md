@@ -6,7 +6,7 @@
 
 * The VPC contains three public and private subnets. 
 * The configuration for the vpc can be find [here](./eks-cluster/vpc.tf)
-* The eks uses two worker groups, with each each worker group contains a 2  t2.small server
+* The eks uses two worker groups, with each each worker group contains  2  t2.small server
 
 To run terrform script for eks
 
