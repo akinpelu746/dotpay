@@ -1,11 +1,16 @@
 # Solution
 
-* The repo contains two folders, The eks-cluster to provision the eks cluster and the argo cd to install argo cd in the cluster
+The repo contains two folders, The eks-cluster to provision the eks cluster and the argo cd to install argo cd in the cluster
 
 ## Architecture of EKS
 
 * The VPC contains three public and private subnets. 
 * The configuration for the vpc can be find [here](./eks-cluster/vpc.tf)
+
+
+![VPC Overview](overview.png)
+
+
 * The eks uses two worker groups, with each each worker group contains a single 2  t2.small
 
 To run terrform script for eks
